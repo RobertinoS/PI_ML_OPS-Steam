@@ -50,7 +50,7 @@ Para este proyecto realice una serie de pasos sitemicos comenzando con inicialme
 ### Link para ingresar a la pagina de FastApi
 https://pi-ml-steam-acyb.onrender.com
 
-### Link del video explicativo sobre el funcionamiento de las Funciones y el modelo de recomendacion 
+### Link del video explicativo sobre el funcionamiento de la Api 
 www.youtube.com
 
 ### Stack Tecnologico Utilizado:
