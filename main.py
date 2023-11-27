@@ -110,25 +110,14 @@ def UsersRecommend( año :int = Query(..., description="Ingrese un año que este
     return resultado
     
 @app.get('/UsersWorstDeveloper')  
-def UsersWorstDeveloper( año : int ):
-    # Filtrar el DataFrame df_developer por el año proporcionado
-    developer_by_year = df_worst_1[df_worst_1['year'] == año]
-
-    # Obtener el top 3 de desarrolladoras con juegos MENOS recomendados y sus valores según rank
-    top3_worst_developer = developer_by_year.sort_values(by='rank', ascending=True).head(3)
-
-    # Formatear el resultado como lista de diccionarios
-    result = [{"Puesto {}: {}".format(rank, developer)} for rank, developer in zip(top3_worst_developer['rank'], top3_worst_developer['developer'])]
-
-    return result
-'''def UsersWorstDeveloper( año : int = Query(..., description="Ingrese un año que este en el rango entre el 2011 y 2015")):
+def UsersWorstDeveloper( año : int = Query(..., description="Ingrese un año que este en el rango entre el 2011 y 2015")):
     # Filtrar el DataFrame df_developer por el año proporcionado
     developer_por_año = df_worst_1[df_worst_1['year'] == año]
     # Obtener el top 3 de desarrolladoras con juegos MENOS recomendados y sus valores según rank
     developer_top3_worst = developer_por_año.sort_values(by='rank', ascending=True).head(3)
     # Formatear el resultado como lista de diccionarios
     result = [{"Puesto {}: {}".format(rank, developer)} for rank, developer in zip(developer_top3_worst['rank'], developer_top3_worst['developer'])]
-    return result  '''
+    return result
     
 @app.get('/sentiment_analysis')    
 def sentiment_analysis(empresa_desarrolladora: str= Query(..., description="Ingrese una empresa desarrolladora(developer).Por ejemplo, 'Valve'.")): 
