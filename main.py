@@ -44,7 +44,7 @@ def presentacion():
 }
 
 a:visited {
-  color: #437a16;
+  color: #EEF580;
 }
 
 a:focus {
@@ -54,12 +54,12 @@ a:focus {
 
 a:hover {
   border-bottom: 1px solid;
-  background: #cdfeaa;
+  background: #80A8F9;
 }
 
 a:active {
   background: #265301;
-  color: #cdfeaa;
+  color: #F2574D;
 }
             </style>
         </head>
