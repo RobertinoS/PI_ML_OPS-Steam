@@ -20,7 +20,6 @@ def presentacion():
         <head>
             <title>API Proyecto Individual 1</title>
             <style>
-                a.visited{color:'9B7DDA'}
                 body {
                     font-family: Arial, sans-serif;
                     padding: 20px;
@@ -39,6 +38,9 @@ def presentacion():
                     font-size: 18px;
                     margin-top: 20px;
                 }
+                a {
+                    color: #ADD8E6;
+                }
             </style>
         </head>
         <body>
@@ -49,6 +51,7 @@ def presentacion():
         </body>
     </html>
     '''
+
 
 
 #-------------------------------------------------------------------------------------------------------   
