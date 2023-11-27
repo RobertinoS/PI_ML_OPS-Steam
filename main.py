@@ -134,7 +134,8 @@ def sentiment_analysis(empresa_desarrolladora: str= Query(..., description="Ingr
         result[empresa_desarrolladora][sentiment_category] += count
     # Devuelve el diccionario result
     return result
-
+    
+@app.get('/recomendacion_juego') 
 def recomendacion_juego(id:int= Query(..., description="Ingrese un id de producto.Por ejemplo, '388390'.")):
     # Filtra el DataFrame df_merge_id por el id proporcionado y obtiene el 'model' correspondiente
     model = df_merge_id[df_merge_id['id'] == id]['model'].iloc[0]
