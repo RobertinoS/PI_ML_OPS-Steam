@@ -43,11 +43,12 @@ def presentacion():
         <body>
             <h1>Bienvenidos a mi api para el Proyecto Individual Nº1 del Bootcam Henry (Data Science)</h1>
             <p>Mi nombre es Robertino Garcia , alumno de Henry perteneciente al Cohorte Nº 17 (Full-Time)</p>
-            <p>Link del repositorio de GitHub: url ('https://github.com/RobertinoS/PI_ML_OPS-Steam')</p>
-            <p>Mi perfil de Linkedin: url ('https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile')</p>
+            <p><a href="https://github.com/RobertinoS/PI_ML_OPS-Steam" target="_blank">Link del repositorio de GitHub</a></p>
+            <p><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">Mi perfil de Linkedin</a></p>
         </body>
     </html>
     '''
+
 
 #-------------------------------------------------------------------------------------------------------   
 df_play=pd.read_parquet('data/df_playtime.parquet')
