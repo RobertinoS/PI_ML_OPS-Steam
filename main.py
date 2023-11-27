@@ -71,7 +71,6 @@ def PlayTimeGenre(genero: str = Query(..., description="Ingrese el género del v
     grouped = df_genre.groupby('release_anio')['playtime_forever'].sum()    
     # Encontrar el año con más horas jugadas
     max_playtime_year = grouped.idxmax()
-    #max_playtime = grouped.max()    
     # Retornar el resultado como un diccionario
     return {"Año de lanzamiento con más horas jugadas para Género {}".format(genero): max_playtime_year}
         
