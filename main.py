@@ -43,8 +43,8 @@ def presentacion():
         <body>
             <h1>Bienvenidos a mi api para el Proyecto Individual Nº1 del Bootcam Henry (Data Science)</h1>
             <p>Mi nombre es Robertino Garcia , alumno de Henry perteneciente al Cohorte Nº 17 (Full-Time)</p>
-            <p>Link del repositorio de GitHub: https://github.com/RobertinoS/PI_ML_OPS-Steam</p>
-            <p>Mi perfil de Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile</p>
+            <p>Link del repositorio de GitHub: url ('https://github.com/RobertinoS/PI_ML_OPS-Steam')</p>
+            <p>Mi perfil de Linkedin: url ('https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile')</p>
         </body>
     </html>
     '''
