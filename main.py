@@ -4,8 +4,6 @@ from typing import Optional
 from fastapi import FastAPI, Response, Query
 from fastapi.responses import HTMLResponse
 
-#http://127.0.0.1:8000 (ruta raiz)
-
 app = FastAPI()
 @app.get("/", response_class=HTMLResponse)  # Ruta de la página inicial
 def presentacion():
