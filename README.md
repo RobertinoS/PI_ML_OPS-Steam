@@ -48,7 +48,7 @@ Para este proyecto realice una serie de pasos sitemicos comenzando con inicialme
 4. `Despliegue del modelo`: Una vez entrenado, el modelo de recomendación se pone en línea para que pueda ser utilizado a través de una API.
 
 ### Link para ingresar a la pagina de FastApi
-https://pi-ml-steam-acyb.onrender.com
+https://pi-ml-steam1.onrender.com
 
 ### Link del video explicativo sobre el funcionamiento de la Api 
 https://www.youtube.com/watch?v=3T_RugUpJDo
