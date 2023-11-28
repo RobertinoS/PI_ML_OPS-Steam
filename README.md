@@ -51,7 +51,7 @@ Para este proyecto realice una serie de pasos sitemicos comenzando con inicialme
 https://pi-ml-steam-acyb.onrender.com
 
 ### Link del video explicativo sobre el funcionamiento de la Api 
-www.youtube.com](https://www.youtube.com/watch?v=3T_RugUpJDo
+https://www.youtube.com/watch?v=3T_RugUpJDo
 
 ### Stack Tecnologico Utilizado:
 Pandas, Scikit-learn, Matplotlib, Seaborn, NumPy, Render, FastAPI, GitHub, Git, Markdown, Python, Visual Studio Code
