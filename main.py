@@ -62,7 +62,7 @@ a:active {
             </style>
         </head>
         <body>
-            <h1>Bienvenidos a mi api para el Proyecto Individual Nº1 del Bootcam Henry (Data Science)</h1>
+            <h1>Bienvenidos a mi api para el Proyecto Individual Nº1 del Bootcamp Henry (Data Science)</h1>
             <p>Mi nombre es Robertino Garcia , alumno de Henry perteneciente al Cohorte Nº 17 (Full-Time)</p>
             <p><a href="https://pi-ml-steam1.onrender.com/docs" target="_blank">Link Fastapi Steam (/docs) </a></p>
             <p><a href="https://github.com/RobertinoS/PI_ML_OPS-Steam" target="_blank">Link del repositorio de GitHub</a></p>
