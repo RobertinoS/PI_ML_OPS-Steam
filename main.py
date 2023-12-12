@@ -66,7 +66,7 @@ a:active {
             <p>Mi nombre es Robertino Garcia , alumno de Henry perteneciente al Cohorte Nº 17 (Full-Time)</p>
             <p><a href="https://pi-ml-steam1.onrender.com/docs" target="_blank">Link Fastapi Steam (/docs) </a></p>
             <p><a href="https://github.com/RobertinoS/PI_ML_OPS-Steam" target="_blank">Link del repositorio de GitHub</a></p>
-            <p><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">Mi perfil de Linkedin</a></p>
+            <p><a href="https://www.linkedin.com/in/robertino-pablo-garc%C3%ADa-sanguedolce-aa9306229/" target="_blank">Mi perfil de Linkedin</a></p>
         </body>
     </html>
     '''
